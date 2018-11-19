@@ -6,13 +6,26 @@
 /* global $ */
 
 $("#shoot").click(function() {
-    $("#userChoice").text($("#input").val());
+    var inputValue = $("#userChoice"),val();
+    $("#userChoice").text("inputValue");
 });
 $("#shoot").click(function() {
     $("#computerChoice").text($("#").val());
+    var randomNumber = Math.random();
 });
-var userChoice =
-var computerChoice =
-var winner =
-// DOCUMENT READY FUNCTION BELOW
+var userChoice = "";
+var computerChoice = "";
+var winner = "";
+
+console.log(randomNumber);
+if(randomNumber > .66) {
+$("#text").html("Rock");
+}
+else if(randomNumber > .33) {
+$("#text").html("Paper");
+}
+else {
+    $("#text").html("scissors")
+}
+});
 
